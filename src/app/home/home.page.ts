@@ -11,8 +11,6 @@ import { AlertController } from '@ionic/angular';
 })
 export class HomePage {
   citas?:  any[];
-  handlerMessage = '';
-  roleMessage = '';
 
   constructor(
     private citaService: CitaService,
