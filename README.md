@@ -6,6 +6,7 @@ Es una aplicación de ejemplo basada en IONIC v6.0 y Firebase que nos permite re
 
 El archivo enviroment.ts no ha sido cargado ya que en el mismo se debe cargar la configuración del proyecto de Firebase, ejemplo:
 
+```
 export const environment = {
   production: false,
   firebaseConfig : {
@@ -18,6 +19,7 @@ export const environment = {
     measurementId: "XXXXXXXXXXXXXXXX"
   }
 };
+```
 
 Además, se ha detectado un error en el modulo de firebase para angular, cuando se tiene las siguientes versiones:
 
